@@ -1,5 +1,7 @@
 # react-basic-starter (Spacchetti fork)
 
+[![Build Status](https://travis-ci.org/justinwoo/spacchetti-react-basic-starter.svg?branch=master)](https://travis-ci.org/justinwoo/spacchetti-react-basic-starter)
+
 This is a fork of the LumiHQ/React-Basic-Starter repo from here: <https://github.com/lumihq/react-basic-starter>
 
 This fork has differences from the original:

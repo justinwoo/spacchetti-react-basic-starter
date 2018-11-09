@@ -575,11 +575,11 @@ let
 
     react-basic = pkgs.stdenv.mkDerivation {
       name = "react-basic";
-      version = "v4.0.2";
+      version = "v5.0.0";
       src = pkgs.fetchgit {
         url = "https://github.com/lumihq/purescript-react-basic.git";
-        rev = "v4.0.2";
-        sha256 = "1gqrlv6y78d2m2brgi0zdnz13zgaqafg6wslzngqmdbkhv3krail";
+        rev = "v5.0.0";
+        sha256 = "19mzicycbs4yw6v4fvm510plxzr0hlvl61szmqrc3g3icvpzvj0g";
       };
       dontInstall = true;
       buildPhase = ''
@@ -832,6 +832,6 @@ let
 in {
   inherit inputs;
 
-  set = "091118";
+  set = "101118";
   source = "https://github.com/justinwoo/spacchetti.git";
 }
