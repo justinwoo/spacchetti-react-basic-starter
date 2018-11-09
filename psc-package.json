@@ -1,6 +1,6 @@
 {
   "name": "spacchetti-react-basic-starter",
-  "set": "091118",
+  "set": "101118",
   "source": "https://github.com/justinwoo/spacchetti.git",
   "depends": [
     "react-basic"
