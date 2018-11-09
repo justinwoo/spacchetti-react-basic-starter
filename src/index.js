@@ -1,1 +1,1 @@
-require("./Main.purs").main();
+require("../output/Main/index.js").main();

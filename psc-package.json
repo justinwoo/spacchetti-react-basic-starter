@@ -1,0 +1,8 @@
+{
+  "name": "spacchetti-react-basic-starter",
+  "set": "091118",
+  "source": "https://github.com/justinwoo/spacchetti.git",
+  "depends": [
+    "react-basic"
+  ]
+}

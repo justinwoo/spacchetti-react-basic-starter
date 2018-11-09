@@ -12,7 +12,7 @@ component = createComponent "App"
 app :: JSX
 app = unit # makeStateless component \_ ->
   R.div_
-    [ R.h1_ [ R.text "Hello world" ]
+    [ R.h1_ [ R.text "sdfwefoawiefjwoaiefj" ]
     , toggle { initialValue: true }
     , toggle { initialValue: false }
     ]
