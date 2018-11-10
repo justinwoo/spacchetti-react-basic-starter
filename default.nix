@@ -8,8 +8,15 @@ let
     sha256 = "105i5w6na902z9kmcdg8gjm7d1l65hb1yb42zwpj4ffg7w90fhqj";
   });
 
+  inputs = {
+    inherit (easy-ps.inputs)
+    purs
+    psc-package-simple
+    psc-package2nix;
+  };
+
 in pkgs.stdenv.mkDerivation {
   name = "spacchetti-react-basic-starter";
 
-  buildInputs = easy-ps.buildInputs;
+  buildInputs = builtins.attrValues inputs;
 }
