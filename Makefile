@@ -10,7 +10,7 @@ npm-deps:
 	npm install
 
 purs-deps:
-	nix-shell install-deps.nix --run 'echo installation complete.'
+	./install-deps.nix
 
 psc-package2nix:
 	psc-package2nix

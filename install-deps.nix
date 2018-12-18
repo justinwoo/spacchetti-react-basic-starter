@@ -1,9 +1,12 @@
+#! /usr/bin/env nix-shell
+#! nix-shell ./install-deps.nix --run 'exit'
+
+{ pkgs ? import <nixpkgs> {} }:
+
 let
-  pkgs = import <nixpkgs> {};
-  packages = import ./packages.nix {};
-  pp2n-utils =  import (pkgs.fetchurl {
-    url = "https://raw.githubusercontent.com/justinwoo/psc-package2nix/0ab7fbb6e55af4cc224ddbcfcf62af3f29a3f363/utils.nix";
-    sha256 = "1hw7dyxhd0hhfx38fhhgh9xj53ki3m2682bv2igashiakxvhcclb";
-  });
+  packages = import ./packages.nix { inherit pkgs; };
+
+  easy-ps = import ./easy-ps.nix { inherit pkgs; };
+  pp2n-utils = import (easy-ps.inputs.psc-package2nix.src + "/utils.nix");
 
 in pp2n-utils.mkInstallPackages pkgs packages
