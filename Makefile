@@ -10,13 +10,13 @@ npm-deps:
 	npm install
 
 purs-deps:
-	./install-deps.nix
+	pp2n install
 
 psc-package2nix:
 	psc-package2nix
 
 purs-build:
-	psc-package build
+	pp2n build
 
 parcel-build:
 	./node_modules/.bin/parcel build src/index.html
