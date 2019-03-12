@@ -8,12 +8,12 @@ This fork has differences from the original:
 
 * Parcel to build the application and provide automatic hot reloading of React components
 * Psc-Package for dependency management, with Spacchetti package sets <https://github.com/justinwoo/spacchetti>
-* (Optionally) Easy-PureScript-Nix to manage required tooling <https://github.com/justinwoo/easy-purescript-nix>
-* (Optionally) PscPackage2Nix to nix-ify the psc-package dependencies <https://github.com/justinwoo/psc-package2nix>
 * consumes the output modules from the PureScript compiler output directly (see src/index.html, src/index.js)
 
 Video of hot reloading in action: <https://twitter.com/jusrin00/status/1060961458484326400>
 
 More information about how this setup works is available here: <https://qiita.com/kimagure/items/aec640d0047d08d2ce90>
 
-This repo is representative of how a normal PureScript project would be set up, but you can skip the [Nix](https://nixos.org/nix/) package manager and the Makefile if you prefer not to use them.
+This repo is representative of how a normal PureScript project would be set up.
+
+See this article for how PureScript tooling works: <https://github.com/justinwoo/my-blog-posts/blob/master/posts/2018-03-20-setting-up-purescript-in-march-2018.md>

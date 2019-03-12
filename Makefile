@@ -1,7 +1,4 @@
-default: npm-deps purs-deps purs-build parcel-build
-
-nix:
-	nix-shell --run make
+default: npm-deps purs-build parcel-build
 
 start:
 	./node_modules/.bin/parcel src/index.html
@@ -9,14 +6,8 @@ start:
 npm-deps:
 	npm install
 
-purs-deps:
-	pp2n install
-
-psc-package2nix:
-	psc-package2nix
-
 purs-build:
-	pp2n build
+	psc-package build
 
 parcel-build:
 	./node_modules/.bin/parcel build src/index.html

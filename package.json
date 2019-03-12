@@ -4,10 +4,12 @@
   "description": "An example react-basic project",
   "repository": "lumihq/react-basic-starter",
   "dependencies": {
-    "react": "16.6.1",
-    "react-dom": "16.6.1"
+    "react": "16.8.4",
+    "react-dom": "16.8.4"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.10.3"
+    "parcel-bundler": "^1.12.1",
+    "psc-package": "^3.0.1",
+    "purescript": "^0.12.3"
   }
 }
