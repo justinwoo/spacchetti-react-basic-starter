@@ -1,5 +1,4 @@
 sudo: required
 dist: trusty
-language: javascript
-script:
-  - make
+language: node_js
+script: make
