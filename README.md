@@ -7,7 +7,7 @@ This is a fork of the LumiHQ/React-Basic-Starter repo from here: <https://github
 This fork has differences from the original:
 
 * Parcel to build the application and provide automatic hot reloading of React components
-* Psc-Package for dependency management, with Spacchetti package sets <https://github.com/justinwoo/spacchetti>
+* Psc-Package or Spago for dependency management (Spago: <https://github.com/spacchetti/spago>)
 * consumes the output modules from the PureScript compiler output directly (see src/index.html, src/index.js)
 
 Video of hot reloading in action: <https://twitter.com/jusrin00/status/1060961458484326400>

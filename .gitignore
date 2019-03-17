@@ -5,6 +5,7 @@
 /build/
 /generated-docs/
 /.psc-package/
+/.spago/
 /.psc*
 /.purs*
 /.psa*
